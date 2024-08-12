@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rising Desks</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+            
+        <div class="wrapper">
+            <nav>
+                <input type="checkbox" id="show-search">
+                <input type="checkbox" id="show-menu">
+                <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+                <div class="content">
+                    <div class="logo"><img src="./Media/logo.png" alt=""></div>
+                    <ul class="links">
+                        <li><a href="index.html">Home</a></li>
+
+                        <li>
+                            <a href="rising_desks.html" class="desktop-link">Rising Desks<i class="fa-solid fa-caret-down"></i></a>
+                            <input type="checkbox" id="show-features">
+                            <label for="show-features">Rising Desks</label>
+                            <ul>
+                                <li><a href="adjustable_desks.html">Adjustable Desks</a></li>
+                                <li><a href="electric_desks.html">Electric Desks</a></li>
+                                <li><a href="wooden_desks.html">Wooden Desks</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="health_benefits.html">Health Benefits</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="basket.html">Basket</a></li>
+                    </ul>
+                </div>
+                <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+                <form action="#" class="search-box">
+                    <input type="search" placeholder="Type Something to Search..." required>
+                    <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+                </form>
+            </nav>
+        </div>
+    </header>
+    <!-- Navigation Bar -->
+    <div class="nav-container">
+        <a href="#" class="logo"><span>S</span>ERA's Desks</a>
+        <!-- CART ICON  -->
+        <i class='fa fa-shopping-cart' id="cart-icon"></i>
+
+        <!-- CART  -->
+        <div class="cart">
+        <h2 class="cart-title">Your Cart</h2>
+
+            <!-- CONTENT  -->
+            <div class="cart-content"></div>
+
+            <!-- TOTAL   -->
+            <div class="total">
+                <div class="total-title">Total</div>
+                <div class="total-price">$0</div>
+            </div>
+            <!-- BUY BUTTON  -->
+            <button type="button" class="btn-buy">Buy Now</button>
+            <!-- CART CLOSE  -->
+            <i class="fa-solid fa-xmark" id="cart-close"></i>
+        </div>
+    </div>
+<!-- SHOP SECTION  -->
+<section class="shop-container">
+  <h2 class="section-title">Special Offers</h2>
+
+  <!-- CONTENT  -->
+  <div class="shop-content">
+      <!-- BOX 1 -->
+      <div class="product-box">
+          <img src="./Media/AD2.png" alt="" class="product-img">
+          <h2 class="product-title">Height Adjustable Desk</h2>
+          <p class="text-center">200+ bought in past month</p>
+          <div class="star text-center">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+          <span class="product-price">$490.50</span>
+          <i class='fa fa-shopping-cart add-cart'></i>
+      </div>
+      <!-- BOX 2 -->
+      <div class="product-box">
+          <img src="./Media/AD3.png" alt="" class="product-img">
+          <h2 class="product-title">Small Rolling Desks</h2>
+          <p class="text-center">Height Standing Table with Wheels</p>
+          <div class="star text-center">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+          <span class="product-price">$250</span>
+          <i class='fa fa-shopping-cart add-cart'></i>
+      </div>
+      <!-- BOX 3 -->
+      <div class="product-box">
+          <img src="./Media/AD4.png" alt="" class="product-img">
+          <h2 class="product-title">Movable Standing Desk</h2>
+          <p class="text-center">Small Wheels with Metal-based</p>
+          <div class="star text-center">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+          <span class="product-price">$344.30</span>
+          <i class='fa fa-shopping-cart add-cart'></i>
+      </div>
+      <!-- BOX 4 -->
+      <div class="product-box">
+          <img src="./Media/AD5.png" alt="" class="product-img">
+          <h2 class="product-title">Ergonomic Desk</h2>
+          <p class="text-center">Sit-stand Ergonomic Desk Converter</p>
+          <div class="star text-center">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+          <span class="product-price">$400 </span>
+          <i class='fa fa-shopping-cart add-cart'></i>
+      </div>
+      <!-- BOX 5 -->
+      <div class="product-box">
+          <img src="./Media/ED1.png" alt="" class="product-img">
+          <h2 class="product-title">Electric Standing Desk</h2>
+          <p class="text-center">Assembles in minutes with included tools.</p>
+          <div class="star text-center">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+          <span class="product-price">$500.60</span>
+          <i class='fa fa-shopping-cart add-cart'></i>
+      </div>
+      <!-- BOX 6 -->
+      <div class="product-box">
+          <img src="./Media/ED2.png" alt="" class="product-img">
+          <h2 class="product-title">Charging Desk</h2>
+          <p class="text-center">Middletown 48"W Height Adjustable</p>
+          <div class="star text-center">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+          <span class="product-price">$300</span>
+          <i class='fa fa-shopping-cart add-cart'></i>
+      </div>
+      <!-- BOX 7 -->
+      <div class="product-box">
+          <img src="./Media/ED3.png" alt="" class="product-img">
+          <h2 class="product-title">Dual Monitor Standing</h2>
+          <p class="text-center">300+ bought in past month</p>
+          <div class="star text-center">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+          <span class="product-price">$500.60</span>
+          <i class='fa fa-shopping-cart add-cart'></i>
+      </div>
+      <!-- BOX 8 -->
+      <div class="product-box">
+          <img src="./Media/ED4.png" alt="" class="product-img">
+          <h2 class="product-title">Single Monitor Standing</h2>
+          <p class="text-center">Best Seller</p>
+          <div class="star text-center">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+          <span class="product-price">$450.55</span>
+          <i class='fa fa-shopping-cart add-cart'></i>
+      </div>
+      <!-- BOX 9 -->
+      <div class="product-box">
+        <img src="./Media/WD2.png" alt="" class="product-img">
+        <h2 class="product-title">Wooden Desk</h2>
+        <p class="text-center">55" Height Adjustable Standing Desk</p>
+        <div class="star text-center">
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+          <i class="fa-solid fa-star checked"></i>
+        </div>
+        <span class="product-price">$239.20</span>
+        <i class='fa fa-shopping-cart add-cart'></i>
+    </div>
+    <!-- BOX 10 -->
+    <div class="product-box">
+      <img src="./Media/WD3.png" alt="" class="product-img">
+      <h2 class="product-title">Wooden Laptop Stand</h2>
+      <p class="text-center">Best for Single Use</p>
+      <div class="star text-center">
+        <i class="fa-solid fa-star checked"></i>
+        <i class="fa-solid fa-star checked"></i>
+        <i class="fa-solid fa-star checked"></i>
+      </div>
+      <span class="product-price">$160.50</span>
+      <i class='fa fa-shopping-cart add-cart'></i>
+    </div>
+    <!-- BOX 11 -->
+    <div class="product-box">
+      <img src="./Media/WD4.png" alt="" class="product-img">
+      <h2 class="product-title">Metal-Based Desk</h2>
+      <p class="text-center">Wide Space with Drawers</p>
+      <div class="star text-center">
+        <i class="fa-solid fa-star checked"></i>
+        <i class="fa-solid fa-star checked"></i>
+        <i class="fa-solid fa-star checked"></i>
+        <i class="fa-solid fa-star checked"></i>
+        <i class="fa-solid fa-star checked"></i>
+      </div>
+      <span class="product-price">$540</span>
+      <i class='fa fa-shopping-cart add-cart'></i>
+    </div>
+    <!-- BOX 12 -->
+    <div class="product-box">
+      <img src="./Media/WD5.png" alt="" class="product-img">
+      <h2 class="product-title">Thick Wooden Desk</h2>
+      <p class="text-center">Free Shipping</p>
+      <div class="star text-center">
+        <i class="fa-solid fa-star checked"></i>
+        <i class="fa-solid fa-star checked"></i>
+        <i class="fa-solid fa-star checked"></i>
+        <i class="fa-solid fa-star checked"></i>
+        <i class="fa-solid fa-star checked"></i>
+      </div>
+      <span class="product-price">$750</span>
+      <i class='fa fa-shopping-cart add-cart'></i>
+    </div>
+
+  </div>
+</section>
+
+<!--Footer-->
+
+<footer class="footer-distributed">
+
+    <div class="footer-left">
+        <h3>SERA<span>Creation</span></h3>
+
+        <p class="footer-links">
+            <a href="#">Home</a>
+            |
+            <a href="#">About</a>
+            |
+            <a href="#">Contact</a>
+            |
+            <a href="#">Blog</a>    
+        </p>
+
+        <p class="footer-company-name">Copyright © 2024 <strong>SERA Creation</strong> All rights reserved</p>
+    </div>
+
+    <div class="footer-center">
+        <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>South Okkalapa</span>Yangon</p>
+                
+        </div>
+
+        <div>
+            <i class="fa fa-phone"></i>
+            <p>+959448221005</p>
+        </div>
+        <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="mailto:seradesks@gmail.com">seradesks@gmail.com</a></p>
+        </div>
+    </div>
+    <div class="footer-right">
+        <p class="footer-company-about">
+            <span>About the company</span>
+            <strong>SERA Desks</strong> was established out of a passion for designing inspiring and 
+            empowering workspaces, and it was founded on the values of health, productivity, and creativity.
+            We set out to create standing workstations that will allow you to work more productively and with greater 
+            comfort by skillfully fusing style and utility.
+        </p>
+        <div class="footer-icons">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+    </div>
+</footer>
+<!--Footer-->
+
+<!-- link js  -->
+<script src="main.js"></script>
+</body>
+</html>
